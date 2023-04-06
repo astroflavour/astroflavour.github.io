@@ -1,6 +1,6 @@
 ---
 import '/style.css'
-import Card from '../components/card.astro';
+import Nav from '../components/nav.astro';
 ---
 
 <html lang="en">
@@ -11,18 +11,13 @@ import Card from '../components/card.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
+
+	<Nav />
+
+
 	<body>
-		<h1>Astro</h1>
-
-
-		<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro Flavour works and explore the official API docs."
-		/>
-
-
-
+		<h1>Welcome to AstroFlavour</h1>
+		
 
 	</body>
 </html>
